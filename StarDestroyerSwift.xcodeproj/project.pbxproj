@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F70A98251D16F32100ECD931 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A98241D16F32100ECD931 /* AppDelegate.swift */; };
+		F70A98271D16F32100ECD931 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A98261D16F32100ECD931 /* GameScene.swift */; };
+		F70A98291D16F32100ECD931 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F70A98281D16F32100ECD931 /* GameScene.sks */; };
+		F70A982B1D16F32100ECD931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70A982A1D16F32100ECD931 /* Assets.xcassets */; };
+		F70A982E1D16F32100ECD931 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F70A982C1D16F32100ECD931 /* MainMenu.xib */; };
+		F70A98391D16F32100ECD931 /* StarDestroyerSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A98381D16F32100ECD931 /* StarDestroyerSwiftTests.swift */; };
+		F70A98441D16F32100ECD931 /* StarDestroyerSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A98431D16F32100ECD931 /* StarDestroyerSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F70A98351D16F32100ECD931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F70A98191D16F32100ECD931 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F70A98201D16F32100ECD931;
+			remoteInfo = StarDestroyerSwift;
+		};
+		F70A98401D16F32100ECD931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F70A98191D16F32100ECD931 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F70A98201D16F32100ECD931;
+			remoteInfo = StarDestroyerSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F70A98211D16F32100ECD931 /* StarDestroyerSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarDestroyerSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70A98241D16F32100ECD931 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F70A98261D16F32100ECD931 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F70A98281D16F32100ECD931 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		F70A982A1D16F32100ECD931 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F70A982D1D16F32100ECD931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F70A982F1D16F32100ECD931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F70A98341D16F32100ECD931 /* StarDestroyerSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarDestroyerSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70A98381D16F32100ECD931 /* StarDestroyerSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarDestroyerSwiftTests.swift; sourceTree = "<group>"; };
+		F70A983A1D16F32100ECD931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F70A983F1D16F32100ECD931 /* StarDestroyerSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarDestroyerSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70A98431D16F32100ECD931 /* StarDestroyerSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarDestroyerSwiftUITests.swift; sourceTree = "<group>"; };
+		F70A98451D16F32100ECD931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F70A981E1D16F32100ECD931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70A98311D16F32100ECD931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70A983C1D16F32100ECD931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F70A98181D16F32100ECD931 = {
+			isa = PBXGroup;
+			children = (
+				F70A98231D16F32100ECD931 /* StarDestroyerSwift */,
+				F70A98371D16F32100ECD931 /* StarDestroyerSwiftTests */,
+				F70A98421D16F32100ECD931 /* StarDestroyerSwiftUITests */,
+				F70A98221D16F32100ECD931 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F70A98221D16F32100ECD931 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F70A98211D16F32100ECD931 /* StarDestroyerSwift.app */,
+				F70A98341D16F32100ECD931 /* StarDestroyerSwiftTests.xctest */,
+				F70A983F1D16F32100ECD931 /* StarDestroyerSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F70A98231D16F32100ECD931 /* StarDestroyerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F70A98241D16F32100ECD931 /* AppDelegate.swift */,
+				F70A98261D16F32100ECD931 /* GameScene.swift */,
+				F70A98281D16F32100ECD931 /* GameScene.sks */,
+				F70A982A1D16F32100ECD931 /* Assets.xcassets */,
+				F70A982C1D16F32100ECD931 /* MainMenu.xib */,
+				F70A982F1D16F32100ECD931 /* Info.plist */,
+			);
+			path = StarDestroyerSwift;
+			sourceTree = "<group>";
+		};
+		F70A98371D16F32100ECD931 /* StarDestroyerSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				F70A98381D16F32100ECD931 /* StarDestroyerSwiftTests.swift */,
+				F70A983A1D16F32100ECD931 /* Info.plist */,
+			);
+			path = StarDestroyerSwiftTests;
+			sourceTree = "<group>";
+		};
+		F70A98421D16F32100ECD931 /* StarDestroyerSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F70A98431D16F32100ECD931 /* StarDestroyerSwiftUITests.swift */,
+				F70A98451D16F32100ECD931 /* Info.plist */,
+			);
+			path = StarDestroyerSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F70A98201D16F32100ECD931 /* StarDestroyerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F70A98481D16F32100ECD931 /* Build configuration list for PBXNativeTarget "StarDestroyerSwift" */;
+			buildPhases = (
+				F70A981D1D16F32100ECD931 /* Sources */,
+				F70A981E1D16F32100ECD931 /* Frameworks */,
+				F70A981F1D16F32100ECD931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarDestroyerSwift;
+			productName = StarDestroyerSwift;
+			productReference = F70A98211D16F32100ECD931 /* StarDestroyerSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F70A98331D16F32100ECD931 /* StarDestroyerSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F70A984B1D16F32100ECD931 /* Build configuration list for PBXNativeTarget "StarDestroyerSwiftTests" */;
+			buildPhases = (
+				F70A98301D16F32100ECD931 /* Sources */,
+				F70A98311D16F32100ECD931 /* Frameworks */,
+				F70A98321D16F32100ECD931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F70A98361D16F32100ECD931 /* PBXTargetDependency */,
+			);
+			name = StarDestroyerSwiftTests;
+			productName = StarDestroyerSwiftTests;
+			productReference = F70A98341D16F32100ECD931 /* StarDestroyerSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F70A983E1D16F32100ECD931 /* StarDestroyerSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F70A984E1D16F32100ECD931 /* Build configuration list for PBXNativeTarget "StarDestroyerSwiftUITests" */;
+			buildPhases = (
+				F70A983B1D16F32100ECD931 /* Sources */,
+				F70A983C1D16F32100ECD931 /* Frameworks */,
+				F70A983D1D16F32100ECD931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F70A98411D16F32100ECD931 /* PBXTargetDependency */,
+			);
+			name = StarDestroyerSwiftUITests;
+			productName = StarDestroyerSwiftUITests;
+			productReference = F70A983F1D16F32100ECD931 /* StarDestroyerSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F70A98191D16F32100ECD931 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Fitc;
+				TargetAttributes = {
+					F70A98201D16F32100ECD931 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F70A98331D16F32100ECD931 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F70A98201D16F32100ECD931;
+					};
+					F70A983E1D16F32100ECD931 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F70A98201D16F32100ECD931;
+					};
+				};
+			};
+			buildConfigurationList = F70A981C1D16F32100ECD931 /* Build configuration list for PBXProject "StarDestroyerSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F70A98181D16F32100ECD931;
+			productRefGroup = F70A98221D16F32100ECD931 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F70A98201D16F32100ECD931 /* StarDestroyerSwift */,
+				F70A98331D16F32100ECD931 /* StarDestroyerSwiftTests */,
+				F70A983E1D16F32100ECD931 /* StarDestroyerSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F70A981F1D16F32100ECD931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70A982B1D16F32100ECD931 /* Assets.xcassets in Resources */,
+				F70A98291D16F32100ECD931 /* GameScene.sks in Resources */,
+				F70A982E1D16F32100ECD931 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70A98321D16F32100ECD931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70A983D1D16F32100ECD931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F70A981D1D16F32100ECD931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70A98271D16F32100ECD931 /* GameScene.swift in Sources */,
+				F70A98251D16F32100ECD931 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70A98301D16F32100ECD931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70A98391D16F32100ECD931 /* StarDestroyerSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70A983B1D16F32100ECD931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70A98441D16F32100ECD931 /* StarDestroyerSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F70A98361D16F32100ECD931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F70A98201D16F32100ECD931 /* StarDestroyerSwift */;
+			targetProxy = F70A98351D16F32100ECD931 /* PBXContainerItemProxy */;
+		};
+		F70A98411D16F32100ECD931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F70A98201D16F32100ECD931 /* StarDestroyerSwift */;
+			targetProxy = F70A98401D16F32100ECD931 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F70A982C1D16F32100ECD931 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F70A982D1D16F32100ECD931 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F70A98461D16F32100ECD931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F70A98471D16F32100ECD931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F70A98491D16F32100ECD931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StarDestroyerSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fitc.StarDestroyerSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F70A984A1D16F32100ECD931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StarDestroyerSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fitc.StarDestroyerSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F70A984C1D16F32100ECD931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = StarDestroyerSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fitc.StarDestroyerSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarDestroyerSwift.app/Contents/MacOS/StarDestroyerSwift";
+			};
+			name = Debug;
+		};
+		F70A984D1D16F32100ECD931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StarDestroyerSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fitc.StarDestroyerSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarDestroyerSwift.app/Contents/MacOS/StarDestroyerSwift";
+			};
+			name = Release;
+		};
+		F70A984F1D16F32100ECD931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = StarDestroyerSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fitc.StarDestroyerSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StarDestroyerSwift;
+			};
+			name = Debug;
+		};
+		F70A98501D16F32100ECD931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StarDestroyerSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fitc.StarDestroyerSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StarDestroyerSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F70A981C1D16F32100ECD931 /* Build configuration list for PBXProject "StarDestroyerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70A98461D16F32100ECD931 /* Debug */,
+				F70A98471D16F32100ECD931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F70A98481D16F32100ECD931 /* Build configuration list for PBXNativeTarget "StarDestroyerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70A98491D16F32100ECD931 /* Debug */,
+				F70A984A1D16F32100ECD931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F70A984B1D16F32100ECD931 /* Build configuration list for PBXNativeTarget "StarDestroyerSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70A984C1D16F32100ECD931 /* Debug */,
+				F70A984D1D16F32100ECD931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F70A984E1D16F32100ECD931 /* Build configuration list for PBXNativeTarget "StarDestroyerSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70A984F1D16F32100ECD931 /* Debug */,
+				F70A98501D16F32100ECD931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F70A98191D16F32100ECD931 /* Project object */;
+}
