@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F70A98251D16F32100ECD931 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A98241D16F32100ECD931 /* AppDelegate.swift */; };
+		F70A98271D16F32100ECD931 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A98261D16F32100ECD931 /* GameScene.swift */; };
+		F70A98291D16F32100ECD931 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F70A98281D16F32100ECD931 /* GameScene.sks */; };
+		F70A982B1D16F32100ECD931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70A982A1D16F32100ECD931 /* Assets.xcassets */; };
+		F70A982E1D16F32100ECD931 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F70A982C1D16F32100ECD931 /* MainMenu.xib */; };
+		F70A98391D16F32100ECD931 /* StarDestroyerSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A98381D16F32100ECD931 /* StarDestroyerSwiftTests.swift */; };
+		F70A98441D16F32100ECD931 /* StarDestroyerSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A98431D16F32100ECD931 /* StarDestroyerSwiftUITests.swift */; };
+		F70A985B1D16F47F00ECD931 /* Missile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A98591D16F47F00ECD931 /* Missile.swift */; };
+		F70A985C1D16F47F00ECD931 /* SpaceShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A985A1D16F47F00ECD931 /* SpaceShip.swift */; };
+		F70A986C1D16F50B00ECD931 /* award.png in Resources */ = {isa = PBXBuildFile; fileRef = F70A985F1D16F50B00ECD931 /* award.png */; };
+		F70A986D1D16F50B00ECD931 /* blueShip.png in Resources */ = {isa = PBXBuildFile; fileRef = F70A98601D16F50B00ECD931 /* blueShip.png */; };
+		F70A986E1D16F50B00ECD931 /* Missile1.png in Resources */ = {isa = PBXBuildFile; fileRef = F70A98611D16F50B00ECD931 /* Missile1.png */; };
+		F70A986F1D16F50B00ECD931 /* Missile2.png in Resources */ = {isa = PBXBuildFile; fileRef = F70A98621D16F50B00ECD931 /* Missile2.png */; };
+		F70A98701D16F50B00ECD931 /* redShip.png in Resources */ = {isa = PBXBuildFile; fileRef = F70A98631D16F50B00ECD931 /* redShip.png */; };
+		F70A98711D16F50B00ECD931 /* space.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F70A98641D16F50B00ECD931 /* space.jpg */; };
+		F70A98721D16F50B00ECD931 /* enemyHit.wav in Resources */ = {isa = PBXBuildFile; fileRef = F70A98661D16F50B00ECD931 /* enemyHit.wav */; };
+		F70A98731D16F50B00ECD931 /* missile2Launch.wav in Resources */ = {isa = PBXBuildFile; fileRef = F70A98671D16F50B00ECD931 /* missile2Launch.wav */; };
+		F70A98741D16F50B00ECD931 /* playerCrash.wav in Resources */ = {isa = PBXBuildFile; fileRef = F70A98681D16F50B00ECD931 /* playerCrash.wav */; };
+		F70A98751D16F50B00ECD931 /* playerHit.wav in Resources */ = {isa = PBXBuildFile; fileRef = F70A98691D16F50B00ECD931 /* playerHit.wav */; };
+		F70A98761D16F50B00ECD931 /* missile1Launch.wav in Resources */ = {isa = PBXBuildFile; fileRef = F70A986A1D16F50B00ECD931 /* missile1Launch.wav */; };
+		F70A98771D16F50B00ECD931 /* missileExplosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = F70A986B1D16F50B00ECD931 /* missileExplosion.wav */; };
+		F79E8F231D4EACD800B5984E /* SpaceshipIntelligence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79E8F221D4EACD800B5984E /* SpaceshipIntelligence.swift */; };
+		F79E8F271D4EAF0000B5984E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79E8F261D4EAF0000B5984E /* Player.swift */; };
+		F7CA24921D3759E000E9D2FD /* RedSpaceship.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CA24911D3759E000E9D2FD /* RedSpaceship.swift */; };
+		F7CA24941D3759EA00E9D2FD /* BlueSpaceship.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CA24931D3759EA00E9D2FD /* BlueSpaceship.swift */; };
+		F7CA24971D37663B00E9D2FD /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CA24961D37663B00E9D2FD /* Direction.swift */; };
+		F7CA24991D376DB500E9D2FD /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CA24981D376DB500E9D2FD /* Orientation.swift */; };
+		F7CA249B1D376E2E00E9D2FD /* RedMissile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CA249A1D376E2E00E9D2FD /* RedMissile.swift */; };
+		F7CA249D1D376E3900E9D2FD /* WhiteMissile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CA249C1D376E3900E9D2FD /* WhiteMissile.swift */; };
+		F7CA249F1D37748300E9D2FD /* MissileFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CA249E1D37748300E9D2FD /* MissileFactory.swift */; };
+		F7CA24A11D37755400E9D2FD /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CA24A01D37755400E9D2FD /* CGPoint.swift */; };
+		F7CA24A31D3787FB00E9D2FD /* SpaceshipFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CA24A21D3787FB00E9D2FD /* SpaceshipFactory.swift */; };
+		F7ED1A5F1DAA7AF4006F17CE /* medal.png in Resources */ = {isa = PBXBuildFile; fileRef = F7ED1A5E1DAA7AF4006F17CE /* medal.png */; };
+		F7ED1A621DAAC474006F17CE /* Explodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ED1A611DAAC474006F17CE /* Explodable.swift */; };
+		F7ED1A641DAAC4AE006F17CE /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ED1A631DAAC4AE006F17CE /* Weapon.swift */; };
+		F7ED1A661DAAC612006F17CE /* PlayerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ED1A651DAAC612006F17CE /* PlayerDelegate.swift */; };
+		F7ED1A681DAAC67F006F17CE /* Collision.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ED1A671DAAC67F006F17CE /* Collision.swift */; };
+		F7ED1A6A1DAAC6DA006F17CE /* GameDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ED1A691DAAC6DA006F17CE /* GameDelegate.swift */; };
+		F7ED1A6C1DAAC7B2006F17CE /* SpaceshipController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ED1A6B1DAAC7B2006F17CE /* SpaceshipController.swift */; };
+		F7F8FD1D1D3C4CE9004CD18C /* MissileBorderCollision.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F8FD1C1D3C4CE9004CD18C /* MissileBorderCollision.swift */; };
+		F7F8FD1F1D3C4D0C004CD18C /* MissileSpaceshipCollision.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F8FD1E1D3C4D0C004CD18C /* MissileSpaceshipCollision.swift */; };
+		F7F8FD211D3C4D48004CD18C /* MissilesCollision.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F8FD201D3C4D48004CD18C /* MissilesCollision.swift */; };
+		F7F8FD231D3D2521004CD18C /* SpaceshipCollisionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F8FD221D3D2521004CD18C /* SpaceshipCollisionManager.swift */; };
+		F7F8FD251D3D3C0D004CD18C /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F8FD241D3D3C0D004CD18C /* CGRect.swift */; };
+		F7F8FD271D3D4E4B004CD18C /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F8FD261D3D4E4B004CD18C /* Game.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F70A98351D16F32100ECD931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F70A98191D16F32100ECD931 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F70A98201D16F32100ECD931;
+			remoteInfo = StarDestroyerSwift;
+		};
+		F70A98401D16F32100ECD931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F70A98191D16F32100ECD931 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F70A98201D16F32100ECD931;
+			remoteInfo = StarDestroyerSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F70A98211D16F32100ECD931 /* StarDestroyer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarDestroyer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70A98241D16F32100ECD931 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F70A98261D16F32100ECD931 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F70A98281D16F32100ECD931 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		F70A982A1D16F32100ECD931 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F70A982D1D16F32100ECD931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F70A982F1D16F32100ECD931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F70A98341D16F32100ECD931 /* StarDestroyerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarDestroyerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70A98381D16F32100ECD931 /* StarDestroyerSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarDestroyerSwiftTests.swift; sourceTree = "<group>"; };
+		F70A983A1D16F32100ECD931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F70A983F1D16F32100ECD931 /* StarDestroyerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarDestroyerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70A98431D16F32100ECD931 /* StarDestroyerSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarDestroyerSwiftUITests.swift; sourceTree = "<group>"; };
+		F70A98451D16F32100ECD931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F70A98591D16F47F00ECD931 /* Missile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Missile.swift; sourceTree = "<group>"; };
+		F70A985A1D16F47F00ECD931 /* SpaceShip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceShip.swift; sourceTree = "<group>"; };
+		F70A985F1D16F50B00ECD931 /* award.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = award.png; sourceTree = "<group>"; };
+		F70A98601D16F50B00ECD931 /* blueShip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueShip.png; sourceTree = "<group>"; };
+		F70A98611D16F50B00ECD931 /* Missile1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Missile1.png; sourceTree = "<group>"; };
+		F70A98621D16F50B00ECD931 /* Missile2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Missile2.png; sourceTree = "<group>"; };
+		F70A98631D16F50B00ECD931 /* redShip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redShip.png; sourceTree = "<group>"; };
+		F70A98641D16F50B00ECD931 /* space.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = space.jpg; sourceTree = "<group>"; };
+		F70A98661D16F50B00ECD931 /* enemyHit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = enemyHit.wav; sourceTree = "<group>"; };
+		F70A98671D16F50B00ECD931 /* missile2Launch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = missile2Launch.wav; sourceTree = "<group>"; };
+		F70A98681D16F50B00ECD931 /* playerCrash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = playerCrash.wav; sourceTree = "<group>"; };
+		F70A98691D16F50B00ECD931 /* playerHit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = playerHit.wav; sourceTree = "<group>"; };
+		F70A986A1D16F50B00ECD931 /* missile1Launch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = missile1Launch.wav; sourceTree = "<group>"; };
+		F70A986B1D16F50B00ECD931 /* missileExplosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = missileExplosion.wav; sourceTree = "<group>"; };
+		F79E8F221D4EACD800B5984E /* SpaceshipIntelligence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceshipIntelligence.swift; sourceTree = "<group>"; };
+		F79E8F261D4EAF0000B5984E /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		F7CA24911D3759E000E9D2FD /* RedSpaceship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedSpaceship.swift; sourceTree = "<group>"; };
+		F7CA24931D3759EA00E9D2FD /* BlueSpaceship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueSpaceship.swift; sourceTree = "<group>"; };
+		F7CA24961D37663B00E9D2FD /* Direction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		F7CA24981D376DB500E9D2FD /* Orientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orientation.swift; sourceTree = "<group>"; };
+		F7CA249A1D376E2E00E9D2FD /* RedMissile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedMissile.swift; sourceTree = "<group>"; };
+		F7CA249C1D376E3900E9D2FD /* WhiteMissile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteMissile.swift; sourceTree = "<group>"; };
+		F7CA249E1D37748300E9D2FD /* MissileFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissileFactory.swift; sourceTree = "<group>"; };
+		F7CA24A01D37755400E9D2FD /* CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
+		F7CA24A21D3787FB00E9D2FD /* SpaceshipFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceshipFactory.swift; sourceTree = "<group>"; };
+		F7ED1A5E1DAA7AF4006F17CE /* medal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medal.png; sourceTree = "<group>"; };
+		F7ED1A611DAAC474006F17CE /* Explodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Explodable.swift; sourceTree = "<group>"; };
+		F7ED1A631DAAC4AE006F17CE /* Weapon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
+		F7ED1A651DAAC612006F17CE /* PlayerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDelegate.swift; sourceTree = "<group>"; };
+		F7ED1A671DAAC67F006F17CE /* Collision.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collision.swift; sourceTree = "<group>"; };
+		F7ED1A691DAAC6DA006F17CE /* GameDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameDelegate.swift; sourceTree = "<group>"; };
+		F7ED1A6B1DAAC7B2006F17CE /* SpaceshipController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceshipController.swift; sourceTree = "<group>"; };
+		F7F8FD1C1D3C4CE9004CD18C /* MissileBorderCollision.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissileBorderCollision.swift; sourceTree = "<group>"; };
+		F7F8FD1E1D3C4D0C004CD18C /* MissileSpaceshipCollision.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissileSpaceshipCollision.swift; sourceTree = "<group>"; };
+		F7F8FD201D3C4D48004CD18C /* MissilesCollision.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissilesCollision.swift; sourceTree = "<group>"; };
+		F7F8FD221D3D2521004CD18C /* SpaceshipCollisionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceshipCollisionManager.swift; sourceTree = "<group>"; };
+		F7F8FD241D3D3C0D004CD18C /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
+		F7F8FD261D3D4E4B004CD18C /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F70A981E1D16F32100ECD931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70A98311D16F32100ECD931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70A983C1D16F32100ECD931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F70A98181D16F32100ECD931 = {
+			isa = PBXGroup;
+			children = (
+				F70A98231D16F32100ECD931 /* StarDestroyerSwift */,
+				F70A98371D16F32100ECD931 /* StarDestroyerSwiftTests */,
+				F70A98421D16F32100ECD931 /* StarDestroyerSwiftUITests */,
+				F70A98221D16F32100ECD931 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F70A98221D16F32100ECD931 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F70A98211D16F32100ECD931 /* StarDestroyer.app */,
+				F70A98341D16F32100ECD931 /* StarDestroyerTests.xctest */,
+				F70A983F1D16F32100ECD931 /* StarDestroyerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F70A98231D16F32100ECD931 /* StarDestroyerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F7ED1A601DAAC467006F17CE /* Protocols */,
+				F70A985D1D16F50B00ECD931 /* Resources */,
+				F7CA24951D37663100E9D2FD /* Utils */,
+				F7F8FD1B1D3C4CE1004CD18C /* Model */,
+				F70A98581D16F45A00ECD931 /* Sprites */,
+				F70A98241D16F32100ECD931 /* AppDelegate.swift */,
+				F70A98261D16F32100ECD931 /* GameScene.swift */,
+				F70A98281D16F32100ECD931 /* GameScene.sks */,
+				F70A982A1D16F32100ECD931 /* Assets.xcassets */,
+				F70A982C1D16F32100ECD931 /* MainMenu.xib */,
+				F70A982F1D16F32100ECD931 /* Info.plist */,
+			);
+			path = StarDestroyerSwift;
+			sourceTree = "<group>";
+		};
+		F70A98371D16F32100ECD931 /* StarDestroyerSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				F70A98381D16F32100ECD931 /* StarDestroyerSwiftTests.swift */,
+				F70A983A1D16F32100ECD931 /* Info.plist */,
+			);
+			path = StarDestroyerSwiftTests;
+			sourceTree = "<group>";
+		};
+		F70A98421D16F32100ECD931 /* StarDestroyerSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F70A98431D16F32100ECD931 /* StarDestroyerSwiftUITests.swift */,
+				F70A98451D16F32100ECD931 /* Info.plist */,
+			);
+			path = StarDestroyerSwiftUITests;
+			sourceTree = "<group>";
+		};
+		F70A98581D16F45A00ECD931 /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				F7CA249E1D37748300E9D2FD /* MissileFactory.swift */,
+				F70A98591D16F47F00ECD931 /* Missile.swift */,
+				F7CA249A1D376E2E00E9D2FD /* RedMissile.swift */,
+				F7CA249C1D376E3900E9D2FD /* WhiteMissile.swift */,
+				F7CA24A21D3787FB00E9D2FD /* SpaceshipFactory.swift */,
+				F70A985A1D16F47F00ECD931 /* SpaceShip.swift */,
+				F7CA24911D3759E000E9D2FD /* RedSpaceship.swift */,
+				F7CA24931D3759EA00E9D2FD /* BlueSpaceship.swift */,
+			);
+			path = Sprites;
+			sourceTree = "<group>";
+		};
+		F70A985D1D16F50B00ECD931 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F70A985E1D16F50B00ECD931 /* Images */,
+				F70A98651D16F50B00ECD931 /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F70A985E1D16F50B00ECD931 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F70A985F1D16F50B00ECD931 /* award.png */,
+				F70A98601D16F50B00ECD931 /* blueShip.png */,
+				F70A98611D16F50B00ECD931 /* Missile1.png */,
+				F70A98621D16F50B00ECD931 /* Missile2.png */,
+				F70A98631D16F50B00ECD931 /* redShip.png */,
+				F7ED1A5E1DAA7AF4006F17CE /* medal.png */,
+				F70A98641D16F50B00ECD931 /* space.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		F70A98651D16F50B00ECD931 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F70A98661D16F50B00ECD931 /* enemyHit.wav */,
+				F70A98681D16F50B00ECD931 /* playerCrash.wav */,
+				F70A98691D16F50B00ECD931 /* playerHit.wav */,
+				F70A986A1D16F50B00ECD931 /* missile1Launch.wav */,
+				F70A98671D16F50B00ECD931 /* missile2Launch.wav */,
+				F70A986B1D16F50B00ECD931 /* missileExplosion.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		F7CA24951D37663100E9D2FD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F7CA24961D37663B00E9D2FD /* Direction.swift */,
+				F7CA24981D376DB500E9D2FD /* Orientation.swift */,
+				F7CA24A01D37755400E9D2FD /* CGPoint.swift */,
+				F7F8FD241D3D3C0D004CD18C /* CGRect.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F7ED1A601DAAC467006F17CE /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F7ED1A611DAAC474006F17CE /* Explodable.swift */,
+				F7ED1A631DAAC4AE006F17CE /* Weapon.swift */,
+				F7ED1A671DAAC67F006F17CE /* Collision.swift */,
+				F7ED1A651DAAC612006F17CE /* PlayerDelegate.swift */,
+				F7ED1A691DAAC6DA006F17CE /* GameDelegate.swift */,
+				F7ED1A6B1DAAC7B2006F17CE /* SpaceshipController.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		F7F8FD1B1D3C4CE1004CD18C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7F8FD1C1D3C4CE9004CD18C /* MissileBorderCollision.swift */,
+				F7F8FD1E1D3C4D0C004CD18C /* MissileSpaceshipCollision.swift */,
+				F7F8FD201D3C4D48004CD18C /* MissilesCollision.swift */,
+				F7F8FD221D3D2521004CD18C /* SpaceshipCollisionManager.swift */,
+				F7F8FD261D3D4E4B004CD18C /* Game.swift */,
+				F79E8F221D4EACD800B5984E /* SpaceshipIntelligence.swift */,
+				F79E8F261D4EAF0000B5984E /* Player.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F70A98201D16F32100ECD931 /* StarDestroyer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F70A98481D16F32100ECD931 /* Build configuration list for PBXNativeTarget "StarDestroyer" */;
+			buildPhases = (
+				F70A981D1D16F32100ECD931 /* Sources */,
+				F70A981E1D16F32100ECD931 /* Frameworks */,
+				F70A981F1D16F32100ECD931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarDestroyer;
+			productName = StarDestroyerSwift;
+			productReference = F70A98211D16F32100ECD931 /* StarDestroyer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F70A98331D16F32100ECD931 /* StarDestroyerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F70A984B1D16F32100ECD931 /* Build configuration list for PBXNativeTarget "StarDestroyerTests" */;
+			buildPhases = (
+				F70A98301D16F32100ECD931 /* Sources */,
+				F70A98311D16F32100ECD931 /* Frameworks */,
+				F70A98321D16F32100ECD931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F70A98361D16F32100ECD931 /* PBXTargetDependency */,
+			);
+			name = StarDestroyerTests;
+			productName = StarDestroyerSwiftTests;
+			productReference = F70A98341D16F32100ECD931 /* StarDestroyerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F70A983E1D16F32100ECD931 /* StarDestroyerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F70A984E1D16F32100ECD931 /* Build configuration list for PBXNativeTarget "StarDestroyerUITests" */;
+			buildPhases = (
+				F70A983B1D16F32100ECD931 /* Sources */,
+				F70A983C1D16F32100ECD931 /* Frameworks */,
+				F70A983D1D16F32100ECD931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F70A98411D16F32100ECD931 /* PBXTargetDependency */,
+			);
+			name = StarDestroyerUITests;
+			productName = StarDestroyerSwiftUITests;
+			productReference = F70A983F1D16F32100ECD931 /* StarDestroyerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F70A98191D16F32100ECD931 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Fitc;
+				TargetAttributes = {
+					F70A98201D16F32100ECD931 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
+					};
+					F70A98331D16F32100ECD931 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
+						TestTargetID = F70A98201D16F32100ECD931;
+					};
+					F70A983E1D16F32100ECD931 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
+						TestTargetID = F70A98201D16F32100ECD931;
+					};
+				};
+			};
+			buildConfigurationList = F70A981C1D16F32100ECD931 /* Build configuration list for PBXProject "StarDestroyer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F70A98181D16F32100ECD931;
+			productRefGroup = F70A98221D16F32100ECD931 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F70A98201D16F32100ECD931 /* StarDestroyer */,
+				F70A98331D16F32100ECD931 /* StarDestroyerTests */,
+				F70A983E1D16F32100ECD931 /* StarDestroyerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F70A981F1D16F32100ECD931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70A986D1D16F50B00ECD931 /* blueShip.png in Resources */,
+				F70A98741D16F50B00ECD931 /* playerCrash.wav in Resources */,
+				F70A98721D16F50B00ECD931 /* enemyHit.wav in Resources */,
+				F70A98731D16F50B00ECD931 /* missile2Launch.wav in Resources */,
+				F70A98711D16F50B00ECD931 /* space.jpg in Resources */,
+				F70A982B1D16F32100ECD931 /* Assets.xcassets in Resources */,
+				F70A986E1D16F50B00ECD931 /* Missile1.png in Resources */,
+				F70A98291D16F32100ECD931 /* GameScene.sks in Resources */,
+				F70A986F1D16F50B00ECD931 /* Missile2.png in Resources */,
+				F70A98701D16F50B00ECD931 /* redShip.png in Resources */,
+				F70A98771D16F50B00ECD931 /* missileExplosion.wav in Resources */,
+				F70A982E1D16F32100ECD931 /* MainMenu.xib in Resources */,
+				F70A98761D16F50B00ECD931 /* missile1Launch.wav in Resources */,
+				F70A98751D16F50B00ECD931 /* playerHit.wav in Resources */,
+				F70A986C1D16F50B00ECD931 /* award.png in Resources */,
+				F7ED1A5F1DAA7AF4006F17CE /* medal.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70A98321D16F32100ECD931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70A983D1D16F32100ECD931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F70A981D1D16F32100ECD931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F79E8F271D4EAF0000B5984E /* Player.swift in Sources */,
+				F7CA24991D376DB500E9D2FD /* Orientation.swift in Sources */,
+				F7CA249B1D376E2E00E9D2FD /* RedMissile.swift in Sources */,
+				F7CA24971D37663B00E9D2FD /* Direction.swift in Sources */,
+				F7CA24941D3759EA00E9D2FD /* BlueSpaceship.swift in Sources */,
+				F7CA24A11D37755400E9D2FD /* CGPoint.swift in Sources */,
+				F7F8FD1F1D3C4D0C004CD18C /* MissileSpaceshipCollision.swift in Sources */,
+				F70A98271D16F32100ECD931 /* GameScene.swift in Sources */,
+				F7F8FD251D3D3C0D004CD18C /* CGRect.swift in Sources */,
+				F7F8FD231D3D2521004CD18C /* SpaceshipCollisionManager.swift in Sources */,
+				F7F8FD211D3C4D48004CD18C /* MissilesCollision.swift in Sources */,
+				F7CA249F1D37748300E9D2FD /* MissileFactory.swift in Sources */,
+				F7ED1A6A1DAAC6DA006F17CE /* GameDelegate.swift in Sources */,
+				F7CA24A31D3787FB00E9D2FD /* SpaceshipFactory.swift in Sources */,
+				F7ED1A661DAAC612006F17CE /* PlayerDelegate.swift in Sources */,
+				F7CA24921D3759E000E9D2FD /* RedSpaceship.swift in Sources */,
+				F7ED1A621DAAC474006F17CE /* Explodable.swift in Sources */,
+				F7ED1A681DAAC67F006F17CE /* Collision.swift in Sources */,
+				F79E8F231D4EACD800B5984E /* SpaceshipIntelligence.swift in Sources */,
+				F70A985B1D16F47F00ECD931 /* Missile.swift in Sources */,
+				F7ED1A6C1DAAC7B2006F17CE /* SpaceshipController.swift in Sources */,
+				F7ED1A641DAAC4AE006F17CE /* Weapon.swift in Sources */,
+				F7F8FD271D3D4E4B004CD18C /* Game.swift in Sources */,
+				F70A985C1D16F47F00ECD931 /* SpaceShip.swift in Sources */,
+				F7CA249D1D376E3900E9D2FD /* WhiteMissile.swift in Sources */,
+				F70A98251D16F32100ECD931 /* AppDelegate.swift in Sources */,
+				F7F8FD1D1D3C4CE9004CD18C /* MissileBorderCollision.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70A98301D16F32100ECD931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70A98391D16F32100ECD931 /* StarDestroyerSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70A983B1D16F32100ECD931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70A98441D16F32100ECD931 /* StarDestroyerSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F70A98361D16F32100ECD931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F70A98201D16F32100ECD931 /* StarDestroyer */;
+			targetProxy = F70A98351D16F32100ECD931 /* PBXContainerItemProxy */;
+		};
+		F70A98411D16F32100ECD931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F70A98201D16F32100ECD931 /* StarDestroyer */;
+			targetProxy = F70A98401D16F32100ECD931 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F70A982C1D16F32100ECD931 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F70A982D1D16F32100ECD931 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F70A98461D16F32100ECD931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F70A98471D16F32100ECD931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F70A98491D16F32100ECD931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StarDestroyerSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fitc.StarDestroyerSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F70A984A1D16F32100ECD931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StarDestroyerSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fitc.StarDestroyerSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F70A984C1D16F32100ECD931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = StarDestroyerSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fitc.StarDestroyerSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarDestroyer.app/Contents/MacOS/StarDestroyer";
+			};
+			name = Debug;
+		};
+		F70A984D1D16F32100ECD931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StarDestroyerSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fitc.StarDestroyerSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarDestroyer.app/Contents/MacOS/StarDestroyer";
+			};
+			name = Release;
+		};
+		F70A984F1D16F32100ECD931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = StarDestroyerSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fitc.StarDestroyerSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StarDestroyerSwift;
+			};
+			name = Debug;
+		};
+		F70A98501D16F32100ECD931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StarDestroyerSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fitc.StarDestroyerSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StarDestroyerSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F70A981C1D16F32100ECD931 /* Build configuration list for PBXProject "StarDestroyer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70A98461D16F32100ECD931 /* Debug */,
+				F70A98471D16F32100ECD931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F70A98481D16F32100ECD931 /* Build configuration list for PBXNativeTarget "StarDestroyer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70A98491D16F32100ECD931 /* Debug */,
+				F70A984A1D16F32100ECD931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F70A984B1D16F32100ECD931 /* Build configuration list for PBXNativeTarget "StarDestroyerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70A984C1D16F32100ECD931 /* Debug */,
+				F70A984D1D16F32100ECD931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F70A984E1D16F32100ECD931 /* Build configuration list for PBXNativeTarget "StarDestroyerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70A984F1D16F32100ECD931 /* Debug */,
+				F70A98501D16F32100ECD931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F70A98191D16F32100ECD931 /* Project object */;
+}

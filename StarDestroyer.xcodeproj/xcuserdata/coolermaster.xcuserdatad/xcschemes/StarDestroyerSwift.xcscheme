@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F70A98201D16F32100ECD931"
-               BuildableName = "StarDestroyerSwift.app"
-               BlueprintName = "StarDestroyerSwift"
-               ReferencedContainer = "container:StarDestroyerSwift.xcodeproj">
+               BuildableName = "StarDestroyer.app"
+               BlueprintName = "StarDestroyer"
+               ReferencedContainer = "container:StarDestroyer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F70A98331D16F32100ECD931"
-               BuildableName = "StarDestroyerSwiftTests.xctest"
-               BlueprintName = "StarDestroyerSwiftTests"
-               ReferencedContainer = "container:StarDestroyerSwift.xcodeproj">
+               BuildableName = "StarDestroyerTests.xctest"
+               BlueprintName = "StarDestroyerTests"
+               ReferencedContainer = "container:StarDestroyer.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F70A983E1D16F32100ECD931"
-               BuildableName = "StarDestroyerSwiftUITests.xctest"
-               BlueprintName = "StarDestroyerSwiftUITests"
-               ReferencedContainer = "container:StarDestroyerSwift.xcodeproj">
+               BuildableName = "StarDestroyerUITests.xctest"
+               BlueprintName = "StarDestroyerUITests"
+               ReferencedContainer = "container:StarDestroyer.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F70A98201D16F32100ECD931"
-            BuildableName = "StarDestroyerSwift.app"
-            BlueprintName = "StarDestroyerSwift"
-            ReferencedContainer = "container:StarDestroyerSwift.xcodeproj">
+            BuildableName = "StarDestroyer.app"
+            BlueprintName = "StarDestroyer"
+            ReferencedContainer = "container:StarDestroyer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F70A98201D16F32100ECD931"
-            BuildableName = "StarDestroyerSwift.app"
-            BlueprintName = "StarDestroyerSwift"
-            ReferencedContainer = "container:StarDestroyerSwift.xcodeproj">
+            BuildableName = "StarDestroyer.app"
+            BlueprintName = "StarDestroyer"
+            ReferencedContainer = "container:StarDestroyer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F70A98201D16F32100ECD931"
-            BuildableName = "StarDestroyerSwift.app"
-            BlueprintName = "StarDestroyerSwift"
-            ReferencedContainer = "container:StarDestroyerSwift.xcodeproj">
+            BuildableName = "StarDestroyer.app"
+            BlueprintName = "StarDestroyer"
+            ReferencedContainer = "container:StarDestroyer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
